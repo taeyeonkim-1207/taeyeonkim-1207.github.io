@@ -1,0 +1,121 @@
+body, figure{
+    margin: 0;
+    background-color:rgb(233, 233, 237)
+}
+
+header{
+    background-color: #f2f2f2;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    display: inline-block;
+    color: black;
+    margin: 0.5rem;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+li a{
+    color: black;
+}
+  
+a {
+    display: block;
+    text-align: center;
+    margin: .25rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.textcolor1 a{
+    color: purple;
+}
+
+.textcolor2 a{
+    color: rgb(195, 167, 195);
+}
+
+.container img { 
+    width: 60%;
+    height: 650px;
+    float: left;
+}
+
+aside{
+    background-color: rgb(233, 233, 237);
+    width: 40%;
+    height: 650px;
+    float: right;
+}
+aside h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+}
+aside pre{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+}
+aside p{
+    font-size: 17px;
+}
+
+.parent{
+    display: flex;
+    width: 100%;
+}
+
+.parent .child{
+    flex: 1;
+    text-align: center;
+    height: 420px;
+    font-size: 40px;
+    font-weight: bold;
+}
+    
+.first{    
+    background-color: rgb(238, 238, 255);
+    color: purple;
+}
+.second{
+    background-color: lavender; 
+    color: rgb(195, 167, 195);
+}
+.third{
+    background-color: rgb(215, 215, 247);
+    color: purple;
+}
+
+.material-symbols-outlined1::before{
+    content: '\2501';
+    position: relative;
+    font-size: 70px;
+    color: purple;
+}
+
+.material-symbols-outlined2::before{
+    content: '\2501';
+    position: relative;
+    font-size: 70px;
+    color: rgb(195, 167, 195);
+}
+
+.my_wavy1:hover{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.my_wavy2:hover{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+

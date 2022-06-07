@@ -1,0 +1,127 @@
+body{
+   background-color:rgb(233, 233, 237);
+}
+
+.joinForm {
+  position:absolute;
+  width:600px;
+  height:630px;
+  background-color:#FFFFFF;
+  text-align:center;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+
+.joinForm h3 {
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.textForm {
+  border-bottom: 2px solid #adadad ;
+  margin: 30px;
+  padding: 10px;
+}
+
+
+.id {
+  width: 100%;
+  border:none;
+  color: #636e72;
+  font-size:15px;
+  height:25px;
+  background: none;
+}
+
+.pw {
+  width: 100%;
+  border:none;
+  color: #636e72;
+  font-size:15px;
+  height:25px;
+  background: none;
+}
+
+.pwcheck{
+    width: 100%;
+    border:none;
+    color: #636e72;
+    font-size:15px;
+    height:25px;
+}
+
+.name {
+  width: 100%;
+  border:none;
+  color: #636e72;
+  font-size:15px;
+  height:25px;
+  background: none;
+}
+
+#phone1{
+  border:none;
+  width: 18%;
+}
+
+#phone2{
+  border:none;
+  width: 30%;
+}
+
+#phone3{
+  border:none;
+  width: 30%;
+}
+
+.email{
+  width: 100%;
+  border:none;
+  color: #636e72;
+  font-size:15px;
+  height:25px;
+}
+
+.btn {
+  position:relative;
+  left:40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:80%;
+  height:40px;
+  background: linear-gradient(150deg,lavender,pink,purple);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-position: right;
+
+}
+
+.material-symbols-outlined{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+th,td{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.button{
+  margin: auto;
+  display: block;
+}
